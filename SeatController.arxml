@@ -298,7 +298,7 @@
                     <ARGUMENT-DATA-PROTOTYPE UUID="e6f24afe-c24f-4ca1-96d5-66b45eba627a">
                       <SHORT-NAME>position</SHORT-NAME>
                       <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/ImplDataTypes/IOPositionSensorReadingType</TYPE-TREF>
-                      <DIRECTION>IN</DIRECTION>
+                      <DIRECTION>OUT</DIRECTION>
                     </ARGUMENT-DATA-PROTOTYPE>
                   </ARGUMENTS>
                 </CLIENT-SERVER-OPERATION>
@@ -314,7 +314,7 @@
                     <ARGUMENT-DATA-PROTOTYPE UUID="1a64e052-7484-4439-a381-676217509ccf">
                       <SHORT-NAME>Weight</SHORT-NAME>
                       <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/ImplDataTypes/IoWeightSensorReadingType</TYPE-TREF>
-                      <DIRECTION>IN</DIRECTION>
+                      <DIRECTION>OUT</DIRECTION>
                     </ARGUMENT-DATA-PROTOTYPE>
                   </ARGUMENTS>
                 </CLIENT-SERVER-OPERATION>
@@ -340,9 +340,9 @@
                   <SHORT-NAME>GetPosition</SHORT-NAME>
                   <ARGUMENTS>
                     <ARGUMENT-DATA-PROTOTYPE UUID="7ea648c9-6d78-4fba-b4fe-20fbef27bc00">
-                      <SHORT-NAME>position</SHORT-NAME>
+                      <SHORT-NAME>Position</SHORT-NAME>
                       <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/ImplDataTypes/SensorPositionType</TYPE-TREF>
-                      <DIRECTION>IN</DIRECTION>
+                      <DIRECTION>OUT</DIRECTION>
                     </ARGUMENT-DATA-PROTOTYPE>
                   </ARGUMENTS>
                 </CLIENT-SERVER-OPERATION>
@@ -374,7 +374,7 @@
                     <ARGUMENT-DATA-PROTOTYPE UUID="fca31a2e-2b61-4c73-a4b9-a959ea81210a">
                       <SHORT-NAME>weight</SHORT-NAME>
                       <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/ImplDataTypes/SensorWeightType</TYPE-TREF>
-                      <DIRECTION>IN</DIRECTION>
+                      <DIRECTION>OUT</DIRECTION>
                     </ARGUMENT-DATA-PROTOTYPE>
                   </ARGUMENTS>
                 </CLIENT-SERVER-OPERATION>

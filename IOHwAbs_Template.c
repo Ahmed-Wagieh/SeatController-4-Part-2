@@ -4,7 +4,7 @@
  * \brief Rte Component Template for AUTOSAR SWC: IOHwAbs
  *
  * \author Sprints AUTOSAR Authoring Tool (SAAT) v1.0.2
- * Generated on 1-25-2022 04:53 PM
+ * Generated on 1-25-2022 05:16 PM
  *
  * For any inquiries: hassan.m.farahat@gmail.com
  *
@@ -22,7 +22,7 @@
  *
  */
 
-void IOHwAbs_ECUGet_Height (IOPositionSensorReadingType position)
+void IOHwAbs_ECUGet_Height (IOPositionSensorReadingType* position)
 {
 	Std_ReturnType status;
 
@@ -38,7 +38,7 @@ void IOHwAbs_ECUGet_Height (IOPositionSensorReadingType position)
  *
  */
 
-void IOHwAbs_ECUGet_Incline (IOPositionSensorReadingType position)
+void IOHwAbs_ECUGet_Incline (IOPositionSensorReadingType* position)
 {
 	Std_ReturnType status;
 
@@ -54,7 +54,7 @@ void IOHwAbs_ECUGet_Incline (IOPositionSensorReadingType position)
  *
  */
 
-void IOHwAbs_ECUGet_Slide (IOPositionSensorReadingType position)
+void IOHwAbs_ECUGet_Slide (IOPositionSensorReadingType* position)
 {
 	Std_ReturnType status;
 
@@ -70,7 +70,7 @@ void IOHwAbs_ECUGet_Slide (IOPositionSensorReadingType position)
  *
  */
 
-void IOHwAbs_ECUGet_Weight (IoWeightSensorReadingType Weight)
+void IOHwAbs_ECUGet_Weight (IoWeightSensorReadingType* Weight)
 {
 	Std_ReturnType status;
 
